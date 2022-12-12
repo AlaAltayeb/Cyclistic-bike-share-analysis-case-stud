@@ -25,7 +25,7 @@ FROM
 FROM
  `Cyclistic_bike.Cyclistic_Copy`;
 
-# check to see if the start_station_name column contains null values using this query
+# Check to see if the start_station_name column contains null values using this query
 SELECT
   *
 FROM
@@ -51,7 +51,7 @@ SELECT
 FROM
 `Cyclistic_bike.Cyclistic_Copy`;
 
-#count how many rows you would be deleting
+# Count how many rows you would be deleting
 
 SELECT
 
@@ -77,7 +77,7 @@ WHERE start_station_name is NULL;
   DISTINCT ride_length
 	FROM `Cyclistic_bike.Cyclistic_Copy`;
 
-# use a LENGTH statement to determine the length of how long each of these string variables: 
+# Use a LENGTH statement to determine the length of how long each of these string variables: 
 
 SELECT
   DISTINCT ride_length,
